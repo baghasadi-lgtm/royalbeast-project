@@ -1,0 +1,16 @@
+.pilih-kapster {
+  padding: 20px;
+}
+
+.pilih-kapster__judul {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+.pilih-kapster__daftar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}

@@ -1,0 +1,54 @@
+.profil-kapster {
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.profil-kapster__judul {
+  text-align: center;
+  font-size: 24px;
+  margin: 16px 0;
+}
+
+.profil-kapster__info {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.profil-kapster__foto {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.profil-kapster__detail p {
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.profil-kapster__subjudul {
+  font-size: 20px;
+  margin: 20px 0 10px;
+}
+
+.profil-kapster__portofolio {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 16px;
+}
+
+.portfolio-item {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portfolio-image,
+.portfolio-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

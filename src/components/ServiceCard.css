@@ -1,0 +1,44 @@
+/* Container kartu */
+.service-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Lingkaran untuk gambar */
+.service-card__circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #FF6B00;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Gambar/emoji di dalam lingkaran */
+.service-card__image {
+  font-size: 30px;
+}
+
+/* Nama service */
+.service-card__name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+/* Efek hover */
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-card:hover .service-card__circle {
+  background-color: #E05E00; /* Warna lebih gelap saat hover */
+}

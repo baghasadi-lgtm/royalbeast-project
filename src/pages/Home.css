@@ -1,0 +1,21 @@
+/* Layout dasar */
+.home {
+  min-height: 100vh;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Teks welcome */
+.home__welcome h1 {
+  margin: 40px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+/* Container tombol lingkaran */
+.home__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* Jarak antar tombol */
+  margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+.selesai-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.selesai-logo {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.selesai-box {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 25px;
+  max-width: 400px;
+  margin: 0 auto;
+  background: #f9f9f9;
+}
+
+.selesai-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.selesai-text {
+  margin: 8px 0;
+}
+
+.selesai-payment {
+  margin-top: 20px;
+}
+
+.selesai-qris img {
+  width: 200px;
+  height: 200px;
+  margin: 10px 0;
+}
