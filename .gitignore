@@ -1,0 +1,16 @@
+node_modules
+.env
+**/.env
+.vite/
+dist/
+frontend/dist/
+frontend/dev-dist/
+backend/dev-dist/
+backend/uploads/
+
+# Dokumen & asset lokal (jangan di-repo)
+BRD.pdf
+BRD.*
+*.xlsx
+IMG_4376.JPG
+*.JPG

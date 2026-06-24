@@ -1,0 +1,28 @@
+{
+  "name": "royalbeast-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js",
+    "db:reset": "psql $DATABASE_URL -f src/schema.sql",
+    "db:seed": "psql $DATABASE_URL -f seeder/dummy_data.sql",
+    "db:seed-users": "psql $DATABASE_URL -f seeder/seed_users.sql",
+    "hash-password": "node scripts/hash-password.js",
+    "vapid:generate": "node scripts/generate-vapid.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.3",
+    "web-push": "^3.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
